@@ -18,7 +18,7 @@ genLink url format_fun = do
         Nothing  -> error "org-links: invalid URI"
         Just uri -> do
             case uriAuthority uri of
-                Nothing -> error "org-uri: no Authority"
+                Nothing -> error "org-links: no Authority"
                 Just auth -> do
                     case uriRegName auth of
                       "github.com" -> do
