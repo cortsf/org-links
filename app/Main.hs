@@ -26,10 +26,15 @@ genLink url format_fun = do
                             query_type = case list!!2 of
                                            "issues" -> "issue"
                                            "pull" -> "pr"
-                        title <- readProcess "gh" [query_type, "view", url, "--json", "title", "-q", ".title"] ""
-                        putStrLn $ format_fun url title list
+                        case length list of
+                          2 -> putStrLn $ "[[" <> url <> "][" <> list!!0 <> "/" <> list!!1 <> "]]"
+                          4 -> do 
+                            title <- readProcess "gh" [query_type, "view", url, "--json", "title", "-q", ".title"] ""
+                            putStrLn $ format_fun url title list
+                          _ -> putStrLn "org-links: url must point to github repo/pr/issue"
                       _ -> do
-                        pure ()
+                        putStrLn "org-links: url must point to github repo/pr/issue"
+
 
 
 format0 url title list = "["
