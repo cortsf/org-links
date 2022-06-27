@@ -47,8 +47,8 @@ format0 url title list = "["
   <> list!!1 
   <> " | "
   <> (case list!!2 of
-         "issues" -> "Issue" <> replicate (4 - (length $ list!!3)) ' '
-         "pull" -> "Pull" <> replicate (5 - (length $ list!!3)) ' '
+         "issues" -> "Issue " <> replicate (4 - (length $ list!!3)) ' '
+         "pull" -> "Pull " <> replicate (5 - (length $ list!!3)) ' '
          _ -> "_"
      )
   <> list!!3
