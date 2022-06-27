@@ -13,9 +13,9 @@ $ "https://github.com/cortsf/org-links/pull/2"
 
 ## End result..
 
-[NixOS/nixpkgs | Pull     9 · Patch to add MuseScore](https://github.com/NixOS/nixpkgs/pull/9)\
-[NixOS/nixpkgs | Pull   129 · Haskell attoparsec binary](https://github.com/NixOS/nixpkgs/pull/129)\
-[NixOS/nixpkgs | Pull   772 · Add haskell-happstack-lite](https://github.com/NixOS/nixpkgs/pull/772)\
+[NixOS/nixpkgs | Pull       9 · Patch to add MuseScore](https://github.com/NixOS/nixpkgs/pull/9)\
+[NixOS/nixpkgs | Pull    129 · Haskell attoparsec binary](https://github.com/NixOS/nixpkgs/pull/129)\
+[NixOS/nixpkgs | Pull    772 · Add haskell-happstack-lite](https://github.com/NixOS/nixpkgs/pull/772)\
 [NixOS/nixpkgs | Issue 3192 · Read-only etc](https://github.com/NixOS/nixpkgs/issues/3192)\
 [NixOS/nixpkgs | Issue 5872 · start display-manager doesn't do anything](https://github.com/NixOS/nixpkgs/issues/5872)
 
