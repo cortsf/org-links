@@ -7,3 +7,8 @@ $ org-links "https://github.com/cortsf/org-links/issues/1"
 
 This program needs github's `gh` cli to work.
 
+
+
+## to-do
+- Add more examples
+
