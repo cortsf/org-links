@@ -6,7 +6,7 @@ This program needs github's `gh` cli to work.
 $ org-links "https://github.com/cortsf/org-links/issues/1"
 [[https://github.com/cortsf/org-links/issues/1][cortsf/org-links | Issue    1 · This program is crap]]
 
-$ "https://github.com/cortsf/org-links/pull/2"
+$ org-links "https://github.com/cortsf/org-links/pull/2"
 [[https://github.com/cortsf/org-links/pull/2][cortsf/org-links | Pull    2 · to-do list]]
 ```
 
